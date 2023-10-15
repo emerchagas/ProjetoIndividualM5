@@ -1,0 +1,151 @@
+body {
+    font-size: Comic;
+    background-color:#abeeac;
+    padding: 20px;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .app {
+    background-color: #a8d4a9;
+    color: grey;
+    padding: 15px 15px;
+    border-radius: 10px;
+  }
+  
+  .filter, .pesquisa {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #11443f;
+      
+  }
+  
+  h1 {
+    text-align: center;
+    color:#a22894;
+    text-shadow:#d2ffd3 2px 2px;
+    font-size:45px;
+    padding: 0 auto;
+    border-bottom: 1px solid #11443f;
+  }
+  
+  h3{
+    margin-bottom: 10px;
+    text-align: center;
+    color:#4b4070;
+    text-shadow:#d2ffd3 2px 1px;
+    font-size:30px;
+    
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    color:#ff5497;
+    text-shadow:#d2ffd3 2px 1px;
+    font-size:30px;
+    padding: 0 auto;
+    
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  input {
+    box-sizing: border-box;
+    background-color: #e2e2e2;
+  
+  }
+  
+  button {
+    background-color: #333974;
+    color: azure ;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    opacity: 1;
+  }
+  
+  .tarefa{
+    background-color:#e2e2e2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .completa {
+    background-color: #94de8f;
+    color:#202739;
+    font-weight: bold;
+    
+  }
+  
+  .remover {
+    background-color:#ff7c7b;
+    color:#202739;
+    font-weight: bold;
+  }
+  
+  .salvar{
+    background-color:#fffb9f;
+    color:#202739;
+    font-weight: bold;
+  }
+  .editar{
+    background-color: #ffad59;
+    color:#2e497c;
+    font-weight: bold;
+  }
+  
+  .formulario {
+    padding: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #11443f;
+    
+  }
+  
+  .botaoCriar{
+    width: 15%;
+    background-color:#ff87ad;
+    color:#f8e9ed;
+    font-size: 15px;  
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    
+  }
+  
+  input, select {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(29, 29, 30);
+    border-radius: 3px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .filter-options {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+  
+  
+  
+  
